@@ -6,13 +6,13 @@
 	<title>Position Example</title>
 	<style>
 	body { margin-bottom: 120px; }
-	p { font-color: black; background-color: #A9A9A9; font-family: times new roman; font-size: 14px; }
+	p { font-color: black; background-color: #A9A9A9; font-family: times new roman; font-size: 14px; width: 500px; }
 	
 	.container { position: relative; } 
-	nav { position: relative; left: 0px; width: 200px; background-color: #00FFFF; }
-	section { margin-left: 200px; position: relative }
-	footer { position: fixed; bottom: 0; left: 0; height: 70px; background-color: yellow; width: 100%; font-color: black; font-family: times new roman; font-size: 18px; text-align: center; }
-	header { position: fixed; bottom: 0; left: 0; height: 70px; background-color: yellow; width: 100%; font-color: black; font-family: times new roman; font-size: 18px; text-align: center; }
+	nav { margin-left: 10px; list-style-type: disc; position: relative; left: 0px; width: 100px; background-color: #00FFFF; float: right; }
+	section { margin-left: 200px; position: relative; }
+	header { positon: fixed; background-color: yellow; width: 100%; font-family: times new roman; font-color: black; text-align: center; font-weight: bold; font-size: 40px; }
+	footer { position: fixed; margin-top: 0; height: 70px; background-color: yellow; width: 100%; font-color: black; font-family: times new roman; font-size: 40px; font-weight: bold; text-align: center; }
 	</style>
 </head>
 <header> Header </header>
@@ -33,14 +33,14 @@
 			<p> The margin-left style for sections makes sure there is room for the nav. </br>
 		Otherwise the absolute and static elements would overlap </p>
 			<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et </br>
-		dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis </br>
-		dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus </br>
-		vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in </br>
-		odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc </br>
-		sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc </br>
-		venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. </br>
-		Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor </br>
-		porta. Cras ac leo purus. Mauris quis diam velit. </p>
+		dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. </br>
+		Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum </br>
+		augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent </br>
+		convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed </br>
+		ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare </br>
+		turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non </br>
+		fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis </br>
+		diam velit. </p>
 			<p> Notice what happens when you resize your browser. It works nicely! </p>
 	</div>
 </body>
