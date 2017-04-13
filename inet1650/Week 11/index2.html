@@ -1,6 +1,44 @@
 <!DOCTYPE html>
 <html>
-<style>
-</style>
+
 <head>
+	<meta charset="utf-8">
+	<title> Float Example </title>
+	<style>
+	header { postion: fixed; font-family: times new roman; background-color: yellow; font-color: black; font-size: 50px; font-weight: bold; width: 100%; text-align: center; }
+	footer { postion: fixed; left: 0; background-color: yellow; width: 100%; font-family: times new roman; font-color: black; font-size: 50px; font-weight: bold; text-align: center; }
+	nav { background-color: #00FFFF; float: right; position: relative; font-family: times new roman; width: 200px; }
+	p { font-color: black; background-color: #A9A9A9; font-family: times new roman; width: 600px; }
+	section { margin-left; 200px; }
+	</style>
 </head>
+<header> Header </header>
+<body>
+	<div class="container">
+		<nav>
+			<li>Home</li>
+			<li>Taco Menu</li>
+			<li>Draft List</li>
+			<li>Hours</li>
+			<li>Directions</li>
+			<li>Contact</li>
+		</nav>
+	</div>
+	
+	<div class="container">
+		<div class="section">
+			<p> This example works just like the last one Notice we put a clearfix on the </br>
+				container. It's not needed in this example, but it would be if the nav was longer than </br>
+				the non-floated content. </p>
+			<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et </br>
+				dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. </br>
+				Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum </br>
+				augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent </br>
+				convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed </br>
+				ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare </br>
+				turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla conque eros non </br>
+				fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis </br>
+				diam velit. </p>
+		</div>
+	</body>
+<footer> Footer </footer>
